@@ -65,7 +65,7 @@ class GameViewModel: ViewModel() {
             return false
         }
     }
-    fun reinitilizeData(){
+    fun reinitializeData(){
         _score.value = 0
         _currentWordCount.value = 0
         wordsList.clear()
