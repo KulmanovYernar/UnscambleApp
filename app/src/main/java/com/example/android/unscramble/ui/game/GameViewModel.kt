@@ -63,4 +63,10 @@ class GameViewModel: ViewModel() {
             return false
         }
     }
+    fun reinitilizeData(){
+        _score = 0
+        _currentWordCount = 0
+        wordsList.clear()
+        getNextWord()
+    }
 }
